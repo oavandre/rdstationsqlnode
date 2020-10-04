@@ -1,0 +1,26 @@
+{
+  "name": "rdstationsqlnode",
+  "version": "1.0.0",
+  "description": "RD Station + MySQL + NodeJS + Webhook",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start index.js --name rdstationsqlnode"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oavandre/rdstationsqlnode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oavandre/rdstationsqlnode/issues"
+  },
+  "homepage": "https://github.com/oavandre/rdstationsqlnode#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "pm2": "^4.5.0"
+  }
+}
